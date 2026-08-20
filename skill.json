@@ -1,0 +1,35 @@
+{
+  "name": "genpark-generative-social-creative-ad-variation-synthesizer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - High-throughput generative social commerce ad creative synthesizer & video storyboard variator.",
+  "author": "genpark",
+  "category": "media",
+  "tags": [
+    "creative-synthesizer",
+    "social-ad-variation",
+    "storyboard-generator",
+    "short-form-video",
+    "livelab"
+  ],
+  "inputs": {
+    "product_highlight": {
+      "type": "string"
+    },
+    "target_aspect_ratio": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "storyboard_scenes": {
+      "type": "array"
+    },
+    "estimated_ctr_pct": {
+      "type": "number"
+    },
+    "hook_intensity_score": {
+      "type": "number"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
